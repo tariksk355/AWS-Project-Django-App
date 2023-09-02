@@ -3,7 +3,7 @@ apt-get update -y
 apt-get install git -y
 apt-get install python3 -y
 cd /home/ubuntu/
-TOKEN="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"
+TOKEN="XXXXXXXXXXXXXXXXXXXXXXXXXXx"
 git clone https://$TOKEN@github.com/tariksk355/aws-django-app.git
 cd /home/ubuntu/aws-django-app
 apt install python3-pip -y
