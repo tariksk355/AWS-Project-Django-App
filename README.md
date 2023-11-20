@@ -2,7 +2,7 @@
 
 ## Description
 
-The Clarusway Blog Page Application aims to deploy blog application as a web application written Django Framework on AWS Cloud Infrastructure. This infrastructure has Application Load Balancer with Auto Scaling Group of Elastic Compute Cloud (EC2) Instances and Relational Database Service (RDS) on defined VPC. Also, The Cloudfront and Route 53 services are located in front of the architecture and manage the traffic in secure. User is able to upload pictures and videos on own blog page and these are kept on S3 Bucket. This architecture will be created by Firms DevOps Guy.
+The Clarusway Blog Page Application aims to deploy blog application as a web application written in Django Framework on AWS Cloud Infrastructure. This infrastructure has Application Load Balancer with Auto Scaling Group of Elastic Compute Cloud (EC2) Instances and Relational Database Service (RDS) on defined VPC. Also, The Cloudfront and Route 53 services are located in front of the architecture and manage the traffic in secure. User is able to upload pictures and videos on own blog page and these are kept on S3 Bucket. This architecture will be created by Firms DevOps Team.
 
 ## Problem Statement
 
@@ -172,11 +172,11 @@ In the architecture, you can configure your infrastructure using the followings,
 ```text
 clarusway_blog_proj (folder)
 |
-|----Readme.md               # Given to the students (Definition of the project)
-|----src (folder)            # Given to the students (Django Application's )
-|----requirements.txt        # Given to the students (txt file)
-|----lambda_function.py      # Given to the students (python file)
-|----developer_notes.txt     # Given to the students (txt file)
+|----Readme.md               # Given to the team (Definition of the project)
+|----src (folder)            # Given to the team (Django Application's )
+|----requirements.txt        # Given to the team (txt file)
+|----lambda_function.py      # Given to the team (python file)
+|----developer_notes.txt     # Given to the team (txt file)
 ```
 
 ## Expected Outcome
@@ -229,22 +229,7 @@ clarusway_blog_proj (folder)
 - Route 53 Configuration
 
 - Git & Github for Version Control System
-
-### At the end of the project, students will be able to;
-
-- Construct VPC environment with whole components like public and private subnets, route tables and managing their routes, internet Gateway, NAT Instance. 
-
-- Apply web programming skills, importing packages within Python Django Framework
-
-- Configure connection to the `MySQL` database.
-
-- Demonstrate bash scripting skills using `user data` section within launch template to install and setup Blog web application on EC2 Instance.
-
-- Create a Lambda function using S3, Lambda and DynamoDB table.
-
-- Demonstrate their configuration skills of AWS VPC, EC2 Launch Templates, Application Load Balancer, ALB Target Group, ALB Listener, Auto Scaling Group, S3, RDS, Cloudfront, Route 53.
-
-- Apply git commands (push, pull, commit, add etc.) and Github as Version Control System.
+- 
 
 ## Steps to Solution
   
